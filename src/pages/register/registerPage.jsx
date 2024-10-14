@@ -12,7 +12,7 @@ const RegisterPage = () => {
         
             <div className={s.video}>
                     <video autoPlay muted loop id={s.bgVideo}>
-                        <source src="/public/bg.mp4" type="video/mp4" />
+                        <source src="/bg.mp4" type="video/mp4" />
                     </video>
                     <div className={s.content}>
                         <div className='container'>

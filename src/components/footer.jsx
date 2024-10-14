@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className={s.footer}>
             <div className="container">
                 <nav className={s.footer_nav}>
-                    <div className={s.logo}><img src="images/logo.png" alt="" /></div>
+                    <div className={s.logo}><img src="images/logo.svg" alt="" /></div>
                     <div className={s.info_list}>
                         <div className={s.info_item}>
                             <h4 className={s.title}>

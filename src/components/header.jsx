@@ -7,7 +7,7 @@ const Header = () => {
             <div className={`container ${s.containers}`}>
 
                 <NavLink to="/" className={s.logo}>
-                    <img src="/images/logo.png" alt="" />
+                    <img src="/images/logo.svg" alt="" />
                 </NavLink>
                 <nav className={s.nav}>
                     <NavLink className={s.item}>Новости</NavLink>
