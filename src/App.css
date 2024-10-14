@@ -1,0 +1,18 @@
+#root {
+  min-width: 100%;
+  width: auto;
+  font-family: 'Playfair Display', serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  height: 100%;
+  position: relative;
+}
