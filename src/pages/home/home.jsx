@@ -3,6 +3,7 @@ import s from "./home.module.css"
 import { NavLink } from 'react-router-dom';
 const Home = () => {
     return (
+        
         <div className={s.home}>
             <div className={s.video}>
                 <video  autoPlay muted loop className={s.bg_video}>

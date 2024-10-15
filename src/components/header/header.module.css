@@ -1,24 +1,17 @@
-.absoluteHeader {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-  }
-  
-  .relativeHeader {
-    position: relative;
-    width: 100%;
-    z-index: 10;
-  }
-  
 
-.header {
-    position: absolute;
+.relativeHeader{
+    position: sticky;
     top: 0;
-    left: 0;
     width: 100%;
-    z-index: 3;
-    background-color: #000814e0;
+    z-index: 100;
+    background-color: #020213;
+}
+.absoluteHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #00081498;
 }
 
 .containers {
@@ -65,32 +58,7 @@ btn {
     font-size: 24px;
 }
 
-.footer {
-    padding: 40px 0;
-    background: #010d1e;
-    color: aliceblue;
-}
 
-.footer_nav {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-
-}
-
-
-
-.info_list {
-    display: flex;
-    width: 100%;
-    align-items: start;
-    justify-content: space-between;  
-}
-
-.info_item {
-    /* max-width: 250px; */
-    flex-grow: 1;
-}
 
 .burger_block {
     display: none;
