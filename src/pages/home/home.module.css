@@ -97,3 +97,16 @@
   .click {
     color: #ff8562;
   }
+
+
+@media (max-width: 768px) {
+  .products {
+    flex-wrap: wrap;
+    
+  }
+}
+@media (max-width: 576px) {
+  .hero {
+    text-align: center;
+  }
+}

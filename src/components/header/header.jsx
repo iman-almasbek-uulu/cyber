@@ -20,7 +20,7 @@ const Header = () => {
                     <NavLink to='/community' className={s.item}>Мероприятие</NavLink>
                     <NavLink to="/contact" className={s.item}>Контакты</NavLink>
                 </nav> 
-                <btn className={`text-center text-white ${s.close_nav}`}>+996 999 999 <br /> Позвонить Бесплатно</btn>
+                <btn className={`text-center text-white ${s.close_nav}`}>+996 999 999 <br /> Позвонить сейчас</btn>
                 <img onClick={() => setShow(!show)} src="images/menu.png" className={show ? s.menu  : s.n} alt="" />
                 <img onClick={() => setShow(!show)} src="images/close.png" className={!show ? s.close : s.n} alt="" />
                 <div className={ !show ? s.burger_block : s.n}>

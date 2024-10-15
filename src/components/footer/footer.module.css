@@ -14,6 +14,10 @@
 }
 
 
+.logo {
+    margin-right: 30px;
+}
+
 
 .info_list {
     display: flex;
@@ -28,6 +32,21 @@
 }
 
 /* MEDIA */
-@media (max-width: 992px) {
-    
+@media (max-width: 768px) {
+    .footer_nav {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+    .logo img {
+        width: 100px;
+    }
+}
+@media (max-width: 576px) {
+    .footer_nav {
+        justify-content: start;
+    }
+   .info_list {
+    flex-direction: column;
+   }
 }

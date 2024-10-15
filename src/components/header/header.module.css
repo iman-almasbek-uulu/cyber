@@ -114,3 +114,14 @@ btn {
         flex-direction: column;
     }
 }
+
+@media (max-width: 576px) {
+    .burger_block {
+        background-color: #010d1e;
+        width: 100%;
+    }
+
+    .menu {
+        width: 60px;
+    }
+}
