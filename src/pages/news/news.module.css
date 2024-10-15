@@ -21,7 +21,7 @@
 }
 
 .image {
-  background: linear-gradient(to top, black, transparent), url("images/game.jpg");
+  background: linear-gradient(to top, black, transparent), url("/public/images/game.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
