@@ -19,7 +19,6 @@ const Home = () => {
                     </div>
                 </section>
 
-
             </div>
             <section className={s.list_product}>
                     <div className="container">
