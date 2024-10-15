@@ -32,7 +32,59 @@
   color: white;
   padding: 20px;
   font-size: 30px;
+  overflow: hidden;
+  position: relative;
 }
+
+.image::before {
+  position: absolute;
+  transform: rotate(-30deg);
+  left: -400px;
+  top: 40%;
+  content: "";
+  width: 700px;
+  height: 30px;
+  animation-delay: 4s;
+  box-shadow: 3px 3px 33px 8px gold;
+  background-color: rgb(253, 245, 199);
+  animation: lineImage 3s linear infinite;
+  animation-delay: 1s;
+
+}
+
+@keyframes lineImage {
+  0% {
+    left: -500px;
+  }
+  50% {
+    left: 900px;
+  }
+  60% {
+    left: 400px;
+  }
+  70% {
+    left: 400px;
+  }
+  80% {
+    left: 400px;
+  }
+  90% {
+    left: 400px;
+  }
+  91% {
+    left: 400px;
+  }
+  92% {
+    left: 400px;
+  }
+  93% {
+    left: 400px;
+  }
+  100% {
+    left: 400px;
+  }
+}
+
 .text {
   width: 100%;
   color: white;
