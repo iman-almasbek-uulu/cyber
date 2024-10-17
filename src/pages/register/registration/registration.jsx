@@ -45,7 +45,7 @@ const Registration = () => {
         setEmail("")
         setTg("")
     } else {
-        errorMesg("Заполните пустые параметры")
+        errorMesg("Заполните пустые параметры  ")
     }
 
   }
