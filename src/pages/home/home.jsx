@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import s from "./home.module.css"
 import { NavLink } from 'react-router-dom';
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(10, 0);
+    }, []);
     return (
         
         <div className={s.home}>
             <div className={s.video}>
                 <video  autoPlay muted loop className={s.bg_video}>
-                    <source src="/bg.mp4" type='video/mp4' />
+                    <source src="/bg4.mp4" type='video/mp4' />
                 </video>
 
                 <section className={s.hero}>
