@@ -54,12 +54,12 @@
 
 
 
-btn {
+.call {
     font-size: 24px;
     background-color: red !important;
 }
 
-btn img{
+.call img{
     width: 20px;
     margin-right: 5px;
 }
@@ -92,7 +92,6 @@ btn img{
     .containers {
         height: 70px;
     }
-
     .logo img {
         width: 60px;
     }
