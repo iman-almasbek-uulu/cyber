@@ -34,6 +34,8 @@
 
 .nav {
     display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
     align-items: center;
     gap: 20px;
 }
@@ -42,20 +44,24 @@
     color: rgb(255, 255, 255);
     font-size: 24px;
     line-height: 1;
-    /* text-shadow: 
-        0 0 10px#FF2400,
-        0 0 20px#FF2400,
-        0 0 40px#FF2400,
-        0 0 80px#FF2400; */
-    /* text-shadow: 
-        0 0 10px rgb(205, 54, 54),
-        0 0 20px rgb(205, 54, 54),
-        0 0 40px rgb(205, 54, 54),
-        0 0 80px rgb(205, 54, 54); */
+    text-decoration: none;
+
 }
+
+.item:hover {
+    text-decoration: underline;
+}
+
+
 
 btn {
     font-size: 24px;
+    background-color: red !important;
+}
+
+btn img{
+    width: 20px;
+    margin-right: 5px;
 }
 
 
@@ -70,6 +76,7 @@ btn {
 
 .menu {
     display: none;
+    width: 60px;
 }
 
 .close {
@@ -109,8 +116,8 @@ btn {
     .nav {
         height: 100%;
         width: 100%;
-        justify-content: space-evenly;
-        gap: 20px;
+        justify-content: center;
+        gap: 60px;
         flex-direction: column;
     }
 }
