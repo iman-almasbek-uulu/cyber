@@ -16,7 +16,7 @@
 
 .containers {
     position: relative;
-    padding: 10px 0;
+    padding: 10px 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,16 +88,34 @@ btn img{
 
 /* MEDIA */
 @media (max-width: 992px) {
+
+    .containers {
+        height: 70px;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+    
+    .burger_block {
+        background-color: #010d1e;
+        width: 90%;
+    }
+
+
+
     .close_nav {
         display: none;
     }
 
     .menu {
         display: block;
+        width: 50px;
     }
 
     .close {
         display: block;
+        width: 40px;
     }
 
 
@@ -123,12 +141,23 @@ btn img{
 }
 
 @media (max-width: 576px) {
+    .containers {
+        height: 60px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+    
     .burger_block {
         background-color: #010d1e;
-        width: 100%;
+        width: 90%;
     }
 
     .menu {
-        width: 60px;
+        width: 40px;
+    }
+    .close {
+        width: 30px;
     }
 }
